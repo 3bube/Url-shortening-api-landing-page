@@ -33,7 +33,7 @@ A modern, responsive URL shortening web application built with Next.js 14, TypeS
 1. **Clone the repository**
 
    ```bash
-   git clone [your-repo-url]
+   git clone https://github.com/3bube/Url-shortening-api-landing-page.git
    cd url-shortening-api
    ```
 

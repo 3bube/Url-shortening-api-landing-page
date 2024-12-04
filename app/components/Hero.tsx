@@ -11,7 +11,7 @@ const Hero = () => {
             More than just shorter links
           </h1>
           <p className="text-lg md:text-xl text-grayishViolet max-w-lg mx-auto md:mx-0">
-            Build your brand's recognition and get detailed insights on how your
+            Build your brand&apos;s recognition and get detailed insights on how your
             links are performing.
           </p>
           <button className="bg-cyan hover:bg-opacity-70 transition-all text-white px-10 py-4 rounded-full font-bold text-xl">
