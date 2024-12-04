@@ -1,36 +1,124 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# URL Shortening API Landing Page
 
-## Getting Started
+A modern, responsive URL shortening web application built with Next.js 14, TypeScript, and Tailwind CSS. This project provides a clean and intuitive interface for shortening URLs, with features like copy-to-clipboard functionality and a beautiful statistics display.
 
-First, run the development server:
+![URL Shortening API](./public/images/desktop-preview.jpg)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Features
+
+- **URL Shortening**: Quick and reliable URL shortening using the CleanURI API
+- **Responsive Design**: Fully responsive layout that works beautifully on mobile and desktop
+- **Modern UI Components**:
+  - Interactive navigation with mobile menu
+  - Hero section with engaging illustration
+  - Statistics cards with connecting design elements
+  - Call-to-action sections
+  - Footer with social links
+- **Copy to Clipboard**: One-click copying of shortened URLs
+- **Error Handling**: Robust error handling and user feedback
+- **TypeScript**: Full type safety throughout the application
+- **Tailwind CSS**: Modern, utility-first CSS framework for styling
+
+## 🛠️ Tech Stack
+
+- **Frontend**: Next.js 14
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **HTTP Client**: Axios
+- **Fonts**: Poppins, Nunito Sans (Next.js optimized)
+- **API**: CleanURI for URL shortening
+
+## 🚦 Getting Started
+
+1. **Clone the repository**
+
+   ```bash
+   git clone [your-repo-url]
+   cd url-shortening-api
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. **Run the development server**
+
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. **Open [http://localhost:3000](http://localhost:3000) with your browser**
+
+## 📱 Responsive Design
+
+The application is fully responsive with breakpoints for:
+
+- Mobile devices
+- Tablets
+- Desktop screens
+
+## 🎨 Color Palette
+
+- **Primary Colors**:
+  - Cyan: `hsl(180, 66%, 49%)`
+  - Dark Violet: `hsl(257, 27%, 26%)`
+- **Secondary Color**:
+  - Red: `hsl(0, 87%, 67%)`
+- **Neutral Colors**:
+  - Gray: `hsl(0, 0%, 75%)`
+  - Grayish Violet: `hsl(257, 7%, 63%)`
+  - Very Dark Blue: `hsl(255, 11%, 22%)`
+  - Very Dark Violet: `hsl(260, 8%, 14%)`
+
+## 📦 Project Structure
+
+```
+url-shortening-api/
+├── app/
+│   ├── api/
+│   │   └── shorten/
+│   ├── components/
+│   │   ├── Header.tsx
+│   │   ├── Hero.tsx
+│   │   ├── Statistics.tsx
+│   │   ├── UrlShortener.tsx
+│   │   ├── CTA.tsx
+│   │   └── Footer.tsx
+│   ├── layout.tsx
+│   └── page.tsx
+├── public/
+│   └── images/
+└── tailwind.config.ts
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔄 API Integration
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The application uses the CleanURI API for URL shortening. The API integration is handled through a Next.js API route for secure communication.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🔍 Future Improvements
 
-## Learn More
+- Add local storage for shortened URLs
+- Implement user authentication
+- Add URL analytics
+- Enhance error handling
+- Add unit and integration tests
 
-To learn more about Next.js, take a look at the following resources:
+## 📄 License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is open source and available under the [MIT License](LICENSE).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🤝 Contributing
 
-## Deploy on Vercel
+Contributions, issues, and feature requests are welcome! Feel free to check [issues page](issues-link).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 👏 Acknowledgments
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Design inspiration from Frontend Mentor
+- Next.js team for the amazing framework
+- CleanURI for the URL shortening API
